@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>        <!-- any DIV will create an inline-block to box in objects for modularity-->
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.CSS">
+    <div class="head">
+        <p class="name">Jayne Doe<p>
+        <h1 class="extra">Master of Shadows and the Internet!</h1>
+    </div>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="box1">
+            <img class="picture" src="photo_of_me.jpg" alt="">
+        </div>
+
+        <div class="box2">
+            <div class="headbox1">
+                <p class="text">About...</p>
+            </div>
+            <p class="info"><a class="continue">Continue Reading</a></p>
+        </div>
+
+        <div class="modularbox1">   <!-- modularbox1 applies to 3 boxes that contain modhbox1 in them as an attempt to keep things more simplistic/modular-->
+            <div class="modhbox1">  <!---modhbox1 creates a box within modularbox1 with the title of the subject within the box -->
+                <p class="text">la mode</p>
+            </div>
+            <img src="lamode.png" class="modboximg" alt="">
+            <p>Bananana Bananana Bananana Bananana Bananana Bananana Bananana Bananana Bananana Bananana Bananana Bananana Bananana Bananana</p>
+        </div>
+
+        <div class="modularbox1">
+            <div class="modhbox1">
+                <p class="text">Family Contacts</p>
+            </div>
+            <img src="familycontacts.png" class="modboximg" alt="">
+            <p>Bananana Bananana Bananana Bananana Bananana Bananana Bananana Bananana Bananana Bananana Bananana Bananana Bananana Bananana</p>
+        </div>
+
+        <div class="modularbox1">
+            <div class="modhbox1">
+                <p class="text">fiveEleven</p>
+            </div>
+            <img src="fiveEleven.png" class="modboximg" alt="">
+            <p>Bananana Bananana Bananana Bananana Bananana Bananana Bananana Bananana Bananana Bananana Bananana Bananana Bananana Bananana</p>
+        </div>
+
+        <div class="modularbox2">            <!-- as is with modularbox1 and modhbox1 but to contain technologies and their images-->
+            <div class="modhbox2">
+                <p class="text">Technologies</p>
+            </div>
+            <img src="php.png" class="tech" alt="">  <!-- Tech class resizes Tech IMG to fit boxed areas-->
+            <img src="codeigniter.png" class="tech" alt="">
+            <img src="jQuery.png" class="tech" alt="">
+            <img src="ajax.png" class="tech" alt="">
+            <img src="mysql.png" class="tech" alt="">
+            <img src="HTML.png" class="tech" alt="">
+            <img src="CSS.png" class="tech" alt="">
+            <img src="bootstrap.png" class="tech" alt="">
+            <div class="buttons">
+                <button type="button" name="la_mode">la_mode</button>
+            </div>
+        </div>
+
+        <div class="modularbox2">
+            <div class="modhbox2">
+                <p class="text">Technologies</p>
+            </div>
+            <img src="JavaScript.png" class="tech" alt="">
+            <img src="mongodb.png" class="tech" alt="">
+            <img src="expressjs.png" class="tech" alt="">
+            <img src="angular.png" class="tech" alt="">
+            <img src="nodejs.png" class="tech" alt="">
+            <img src="HTML.png" class="tech" alt="">
+            <img src="CSS.png" class="tech" alt="">
+            <img src="socket.png" class="tech" alt="">
+            <div class="buttons">
+                <button type="button" name="family_contacts">Family_Contacts</button>
+            </div>
+        </div>
+
+        <div class="modularbox2">
+            <div class="modhbox2">
+                <p class="text">Technologies</p>
+            </div>
+            <img src="python.png" class="tech" alt="">
+            <img src="django.png" class="tech" alt="">
+            <img src="d3.png" class="tech" alt="">
+            <img src="angular.png" class="tech" alt="">
+            <img src="sqlite.png" class="tech" alt="">
+            <img src="HTML.png" class="tech" alt="">
+            <img src="CSS.png" class="tech" alt="">
+            <img src="JavaScript.png" class="tech" alt="">
+            <img src="materialize.png" class="tech" alt="">
+            <div class="buttons">
+                <button type="button" name="fiveEleven">fiveEleven</button>
+            </div>    <!-- divs creted for buttons for alignment -->
+        </div>
+
+    </div> <!-- end of wrappe-->
+    <footer class="footer1"><a href=”JDoe@gmails.com”>JDoe@gmails.com |</a><a href=206-555-1212”>206-555-1212</a></footer>
+    <footer class="footer2"> <img src="github.png" class="foot" alt=""> jaynedev <img src="linkedin.png" class="foot" alt=""> jayne-doe <img src="twitter.png" class="foot" alt=""> jdtweets <img src="codepen.png" class="foot" alt=""> jaynedev </footer>
+</body>          <!-- side note, web pages made with pixel measurements vs device size seem less efficient workflow wise-->
+</html>

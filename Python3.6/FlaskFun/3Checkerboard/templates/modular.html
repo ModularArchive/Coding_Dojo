@@ -1,0 +1,34 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="utf=8">
+    <title>index</title>
+    <style>
+    
+    table tr td{
+        width: 50px;
+        height: 50px;
+    }
+
+    .color1{
+        background-color:blue;
+    }
+    .color2{
+        background-color:red;
+    }
+    </style>
+
+</head>
+<body>
+    <table>
+    {% for i in range(value1): %}
+        <tr>
+            {% for j in range(value2): %}
+            <td class='color{{  (i+j)%2+1  }}'></td>
+            {% endfor %}
+        </tr>
+    {% endfor %}
+    </table>
+</body>
+</html>
+ <!-- call flaskEnv/Scripts/activate -->

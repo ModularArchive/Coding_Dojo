@@ -1,0 +1,21 @@
+pip install Django==1.11.9	This installs Django to pip, specifically version 1.11.9
+
+pip list			This lists all software currently installed to pip
+
+deactivate 			This deactivates your virtual environment
+
+pip3 list 			I have Python 3 hard installed so nothing happened out of the ordinary however pip3 is the python 3 version of pip
+
+python/venv/py3Env/Scripts/activate (place of location and activation of my virtual environment based around python 3
+
+pip install Django==1.11.9 	it informs me that the most recent version of Django has already been installed, and to update my version of pip (A little outdated)
+
+pip freeze 			pytz==2018.5
+
+(cd ~/Desktop), run: pip freeze > requirements.txt. 	Unfortunately no file was downloaded for me, I attempted several times and different ways but I do know that requirements.txt can be downloaded directly via pip and that can be useful for servers and storing info to virtual env
+
+pip uninstall Django		uinstalling django, shows the location where some files were removed and asks my y/n to proceed. I press yes
+
+pip show Django			displays nothing due to it not being installed
+
+pip search Flask This one might take a moment to execute. 	Displayed Flask and all flask extensions installed

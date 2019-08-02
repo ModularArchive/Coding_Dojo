@@ -1,0 +1,160 @@
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\Scott>cd desktop
+
+C:\Users\Scott\Desktop>md DojoAssignments
+
+C:\Users\Scott\Desktop>cd Dojoassignments
+
+C:\Users\Scott\Desktop\DojoAssignments>md WebFundamentals
+
+C:\Users\Scott\Desktop\DojoAssignments>md Python
+
+C:\Users\Scott\Desktop\DojoAssignments>md MEAN
+
+C:\Users\Scott\Desktop\DojoAssignments>md Ruby
+
+C:\Users\Scott\Desktop\DojoAssignments>md iOS
+
+C:\Users\Scott\Desktop\DojoAssignments>md netCore
+
+C:\Users\Scott\Desktop\DojoAssignments>
+C:\Users\Scott\Desktop\DojoAssignments>cd webfundamentals
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals>copy nul about.txt
+        1 file(s) copied.
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals>cd ..
+
+C:\Users\Scott\Desktop\DojoAssignments>cd python
+
+C:\Users\Scott\Desktop\DojoAssignments\Python>copy nul about.txt
+        1 file(s) copied.
+
+C:\Users\Scott\Desktop\DojoAssignments\Python>cd ..
+
+C:\Users\Scott\Desktop\DojoAssignments>cd MEAN
+
+C:\Users\Scott\Desktop\DojoAssignments\MEAN>copy nul about.txt
+        1 file(s) copied.
+
+C:\Users\Scott\Desktop\DojoAssignments\MEAN>cd ..
+
+C:\Users\Scott\Desktop\DojoAssignments>cd Ruby
+
+C:\Users\Scott\Desktop\DojoAssignments\Ruby>copy nul about.txt
+        1 file(s) copied.
+
+C:\Users\Scott\Desktop\DojoAssignments\Ruby>cd ..
+
+C:\Users\Scott\Desktop\DojoAssignments>cd iOs
+
+C:\Users\Scott\Desktop\DojoAssignments\iOS>copy nul about.txt
+        1 file(s) copied.
+
+C:\Users\Scott\Desktop\DojoAssignments\iOS>cd ..
+
+C:\Users\Scott\Desktop\DojoAssignments>cd netCore
+
+C:\Users\Scott\Desktop\DojoAssignments\netCore>copy nul about.txt
+        1 file(s) copied.
+
+C:\Users\Scott\Desktop\DojoAssignments\netCore>cd webfundamentals
+The system cannot find the path specified.
+
+C:\Users\Scott\Desktop\DojoAssignments\netCore>md git
+
+C:\Users\Scott\Desktop\DojoAssignments\netCore>md HTML
+
+C:\Users\Scott\Desktop\DojoAssignments\netCore>del git
+C:\Users\Scott\Desktop\DojoAssignments\netCore\git\*, Are you sure (Y/N)? y
+
+C:\Users\Scott\Desktop\DojoAssignments\netCore>del HTML
+C:\Users\Scott\Desktop\DojoAssignments\netCore\HTML\*, Are you sure (Y/N)? y
+
+C:\Users\Scott\Desktop\DojoAssignments\netCore>cd ..
+
+C:\Users\Scott\Desktop\DojoAssignments>cd Webfundamentals
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals>md GIT
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals>md HTML
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals>md CSS
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals>md Javascript
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals>cd git
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals\GIT>copy nul about.txt
+        1 file(s) copied.
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals\GIT>cd ..
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals>cd HTML
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals\HTML>copy nul about.txt
+        1 file(s) copied.
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals\HTML>cd ..
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals>cd css
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals\CSS>copy nul about.txt
+        1 file(s) copied.
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals\CSS>cs ..
+'cs' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals\CSS>cs javascript
+'cs' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals\CSS>cd ..
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals>cd javascript
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals\Javascript>copy nul about.txt
+        1 file(s) copied.
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals\Javascript>cd ..
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals>cd html
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals\HTML>copy nul indentation.html
+        1 file(s) copied.
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals\HTML>cd ...
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals\HTML>cd ..
+
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals>cd ..
+
+C:\Users\Scott\Desktop\DojoAssignments>dir /b /s
+C:\Users\Scott\Desktop\DojoAssignments\iOS
+C:\Users\Scott\Desktop\DojoAssignments\MEAN
+C:\Users\Scott\Desktop\DojoAssignments\netCore
+C:\Users\Scott\Desktop\DojoAssignments\Python
+C:\Users\Scott\Desktop\DojoAssignments\Ruby
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals
+C:\Users\Scott\Desktop\DojoAssignments\iOS\about.txt
+C:\Users\Scott\Desktop\DojoAssignments\MEAN\about.txt
+C:\Users\Scott\Desktop\DojoAssignments\netCore\about.txt
+C:\Users\Scott\Desktop\DojoAssignments\netCore\git
+C:\Users\Scott\Desktop\DojoAssignments\netCore\HTML
+C:\Users\Scott\Desktop\DojoAssignments\Python\about.txt
+C:\Users\Scott\Desktop\DojoAssignments\Ruby\about.txt
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals\about.txt
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals\CSS
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals\GIT
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals\HTML
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals\Javascript
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals\CSS\about.txt
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals\GIT\about.txt
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals\HTML\about.txt
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals\HTML\indentation.html
+C:\Users\Scott\Desktop\DojoAssignments\WebFundamentals\Javascript\about.txt
+
+C:\Users\Scott\Desktop\DojoAssignments>

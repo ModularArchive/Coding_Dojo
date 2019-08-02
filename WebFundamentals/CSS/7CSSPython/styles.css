@@ -1,0 +1,158 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+#wrapper {
+  width: 970px;
+  margin: 0px auto;
+  background-color: #245076;
+  color: white;
+}
+#topbox{
+  padding: 15px;
+}
+#pythonimg{
+  display: inline-block;
+  width: 300px;
+}
+#header{
+  display: inline-block;
+}
+#header_right{
+  display: inline-block;
+  margin-left: 240px;
+  text-align: center;
+}
+#header_right a{
+  color: #cbad04;
+}
+#header_right span{
+  color: black;
+}
+#search{
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #444444;
+  padding: 15px 7px 4px 7px;
+  margin: 15;
+  box-shadow: 2px 2px 2px black;
+}
+#search input{
+  text-align: center;
+  padding-left: 10px;
+  border: 2px solid black
+}
+#search button{
+  color: white;
+  text-align: center;
+  margin-left: 5px;
+  padding: 6px 8px;
+  border-radius: 5px;
+  background-color: blue;
+  box-shadow: 1px 1px 1px black;
+}
+#topnav{
+  width: 800px;
+  background-color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: auto;
+  padding: 10px 25px;
+  margin: 20px auto;
+  box-shadow: 2px 2px 2px black;
+}
+#sidenavbox{
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 100px;
+    color: white;
+}
+#sidenavbox li{
+    margin: 13px;
+}
+#sidenavbox a{
+    color: white;
+}
+#sidenavbox span{
+    color: #cbad04;
+    font-size: 10px;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+#mainbox{
+    display: inline-block;
+    width: 600px;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 20px;
+}
+#mainbox p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+#mainbox h2{
+    font-weight: normal;
+    color: #cbad04;
+    font-style: italic;
+    margin: 5px;
+}
+#mainboxt h3{
+    font-weight: normal;
+    margin: 15px;
+}
+#middlebox{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 40px;
+}
+#middlebox div{
+    width: 400px;
+    border-top: 4px solid #cbad04;
+    color: black;
+    text-align: center;
+}
+#middlebox h4{
+    margin: 10px;
+}
+#middlebox p{
+    font-size: 14px;
+    width: 300px;
+    margin: 0px auto 5px auto;
+}
+#middlebox span{
+    color: #cbad04;
+}
+#middlebox ul{
+    list-style: square;
+    margin-left: 75px;
+    width: 400px;
+}
+#middlebox li a{
+    margin-left: -125px;
+    text-decoration: none;
+    color: #cbad04;
+    font-size: 14px;
+}
+#footer{
+    text-align: center;
+    background: linear-gradient(#245176, #3374ab);
+    padding-top: 10px;
+    color: #cbad04;
+}
+#footer ul{
+    margin: 20px auto 20px auto;
+}
+#footer li{
+    display: inline;
+    margin: 20px;
+}
+#footer p{
+    font-size: 10px;
+    height: 20px;
+}

@@ -1,0 +1,45 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="utf=8">
+    <title>index</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheet.css')}}">
+    <style>
+        .red{
+            background-color: red;
+        }
+        .green{
+            background-color: green;
+        }
+        .box{
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            width: 150px;
+            height: 100px;
+            padding-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <center>
+            <h4>session data: {{session["correct"]}}, {{session["result"]}} </h4>
+            <h1>Welcome to the great number game!</h1>
+            <h2>I am thinking of a number from 1 - 100</h2>
+            <h3>Take a guess</h3>
+            {% if result == "high" %}
+            <div class="red box">Too High</div>
+            {% elif result == "low" %}
+            <div class="red box">Too Low</div>
+            {% elif result == "correct" %}
+            <div class="green box">{{session["correct"]}} was the correct number</div>
+            <a href="/reset">reset</a>
+            {% endif %}
+            <form action="/guessnumber" method="POST">
+                <input type="text" name="guess"><br>
+                <button type="submit"> submit </button>
+            </form>
+        </center>
+    </div>
+</body>
+</html> <!-- call flaskEnv/Scripts/activate -->

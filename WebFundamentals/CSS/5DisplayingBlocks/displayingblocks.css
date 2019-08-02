@@ -1,0 +1,36 @@
+.wrapper {
+	width: 800px;
+  background-color: beige;
+}
+.main {
+	margin: 0 auto;
+	width: 700px;
+	display:block;
+}
+div {
+  display: inline-block;
+}
+img {
+  width: 100px;
+  display: inline-block;
+}
+.header {
+  width: 510px;
+  margin: 0 auto;
+  display: block;
+}
+h1 {
+  display: inline-block;
+}
+.blue {
+  background-color: blue;
+  padding: 10px 10px 10px 10px;
+  border: 3px solid black;
+  margin: 1px;
+}
+.red {
+  background-color: red;
+  padding: 10px 10px 10px 10px;
+  border: 3px solid black;
+  margin: 1px;
+}

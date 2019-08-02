@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="uft-8">
+    <title>Survey Results</title>
+</head>
+<body>
+    <p>Thanks for submitting this form! You have submitted this form {{request.session.count}} times now.</p>
+    <h3>Submitted Form</h3>
+    <ul>
+        <li>Name: {{ request.session.name }}</li>
+        <li>Name: {{ request.session.location }}</li>
+        <li>Name: {{ request.session.name }}</li>
+        <li>Name: {{ request.session.name }}</li>
+        <li>Name: {{ request.session.name }}</li>
+    </ul>
+    <a href="/">Go Back</a>
+</body>
+</html>

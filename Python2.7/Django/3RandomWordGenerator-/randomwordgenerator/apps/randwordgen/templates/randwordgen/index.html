@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Random Word Generator</title>
+
+</head>
+<body>
+    <h2>Random Word (attempt #{{request.session.count}}</h2>
+    <h1>{{string}}</h1>
+    <form action="/process", method='post'>
+        {% csrf_token %}
+        <input type="submit" value="generate">    
+    </form>
+    <form action="/random_word/reset", method='post'>
+        {% csrf_token %}
+        <input type="submit" value="clear">    
+    </form>
+</body>
+</html> <!-- All that is required is replace these with bootstrap, add the CSS to be loaded in the settings and in the header-->

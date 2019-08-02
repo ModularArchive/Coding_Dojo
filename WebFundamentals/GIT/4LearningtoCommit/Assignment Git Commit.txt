@@ -1,0 +1,136 @@
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\Scott>cd desktop
+
+C:\Users\Scott\Desktop>md gittest
+
+C:\Users\Scott\Desktop>cd gittest
+
+C:\Users\Scott\Desktop\gittest>git init
+Initialized empty Git repository in C:/Users/Scott/Desktop/gittest/.git/
+
+C:\Users\Scott\Desktop\gittest>touch index.html
+'touch' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Scott\Desktop\gittest>copy nul index.html
+        1 file(s) copied.
+
+C:\Users\Scott\Desktop\gittest>copy nul styles.css
+        1 file(s) copied.
+
+C:\Users\Scott\Desktop\gittest>copy nul aboutMe.txt
+        1 file(s) copied.
+
+C:\Users\Scott\Desktop\gittest>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        aboutMe.txt
+        index.html
+        styles.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Scott\Desktop\gittest>Git add .
+
+C:\Users\Scott\Desktop\gittest>Git commit -m "Initial Commit"
+[master (root-commit) f58e28f] Initial Commit
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 aboutMe.txt
+ create mode 100644 index.html
+ create mode 100644 styles.css
+
+C:\Users\Scott\Desktop\gittest>Git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\Scott\Desktop\gittest>$ atom.
+'$' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Scott\Desktop\gittest>atom.
+'atom.' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Scott\Desktop\gittest>atom .
+
+C:\Users\Scott\Desktop\gittest>git add .
+
+C:\Users\Scott\Desktop\gittest>git commit -m "Updated aboutMe.txt"
+[master e68ac7f] Updated aboutMe.txt
+ 1 file changed, 3 insertions(+)
+
+C:\Users\Scott\Desktop\gittest>Git add .
+
+C:\Users\Scott\Desktop\gittest>Git commit -m "added favorite movie to aboutMe.txt"
+[master 448a14a] added favorite movie to aboutMe.txt
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\Users\Scott\Desktop\gittest>git log
+commit 448a14a64b109a029a78cf755ce275d7b57e5f19 (HEAD -> master)
+Author: SJB-Joker <Scotts_Sideacc@yahoo.com>
+Date:   Thu Feb 15 19:01:48 2018 -0800
+
+    added favorite movie to aboutMe.txt
+
+commit e68ac7fa3fedf304715887ef4aa3a912d4d180bc
+Author: SJB-Joker <Scotts_Sideacc@yahoo.com>
+Date:   Thu Feb 15 19:00:15 2018 -0800
+
+    Updated aboutMe.txt
+
+commit f58e28fbc51960d7908e7cb4f829254111db4876
+Author: SJB-Joker <Scotts_Sideacc@yahoo.com>
+Date:   Thu Feb 15 18:54:53 2018 -0800
+
+    Initial Commit
+
+C:\Users\Scott\Desktop\gittest>Git revert --no-edit HEAD
+[master 8e25644] Revert "added favorite movie to aboutMe.txt"
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+C:\Users\Scott\Desktop\gittest>git add .
+
+C:\Users\Scott\Desktop\gittest>git commit -m "updated aboutMe.txt + Favorite Book"
+[master 09c3f86] updated aboutMe.txt + Favorite Book
+ 1 file changed, 1 insertion(+)
+
+C:\Users\Scott\Desktop\gittest>Git log
+commit 09c3f86f6b5749c7e1e26f5a172f1da20e869fc2 (HEAD -> master)
+Author: SJB-Joker <Scotts_Sideacc@yahoo.com>
+Date:   Thu Feb 15 19:05:43 2018 -0800
+
+    updated aboutMe.txt + Favorite Book
+
+commit 8e256445bfeec1d533912e828140a38abf1d7045
+Author: SJB-Joker <Scotts_Sideacc@yahoo.com>
+Date:   Thu Feb 15 19:04:05 2018 -0800
+
+    Revert "added favorite movie to aboutMe.txt"
+
+    This reverts commit 448a14a64b109a029a78cf755ce275d7b57e5f19.
+
+commit 448a14a64b109a029a78cf755ce275d7b57e5f19
+Author: SJB-Joker <Scotts_Sideacc@yahoo.com>
+Date:   Thu Feb 15 19:01:48 2018 -0800
+
+    added favorite movie to aboutMe.txt
+
+commit e68ac7fa3fedf304715887ef4aa3a912d4d180bc
+Author: SJB-Joker <Scotts_Sideacc@yahoo.com>
+Date:   Thu Feb 15 19:00:15 2018 -0800
+
+    Updated aboutMe.txt
+
+commit f58e28fbc51960d7908e7cb4f829254111db4876
+Author: SJB-Joker <Scotts_Sideacc@yahoo.com>
+Date:   Thu Feb 15 18:54:53 2018 -0800
+
+    Initial Commit
+(END)

@@ -1,0 +1,42 @@
+Microsoft Windows [Version 10.0.15063]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\Scott>cd desktop
+
+C:\Users\Scott\Desktop>md test
+
+C:\Users\Scott\Desktop>cd test
+
+C:\Users\Scott\Desktop\test>..
+'..' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Scott\Desktop\test>cd ..
+
+C:\Users\Scott\Desktop>cd test
+
+C:\Users\Scott\Desktop\test>copy nul index.html
+        1 file(s) copied.
+
+C:\Users\Scott\Desktop\test>copy nul styles.css
+        1 file(s) copied.
+
+C:\Users\Scott\Desktop\test>copy nul commands.txt
+        1 file(s) copied.
+
+C:\Users\Scott\Desktop\test>copy index.html index_2.html
+        1 file(s) copied.
+
+C:\Users\Scott\Desktop\test>del styles.css
+
+C:\Users\Scott\Desktop\test>cd ..
+
+C:\Users\Scott\Desktop>md destination
+
+C:\Users\Scott\Desktop>move test\index_2.html destination
+        1 file(s) moved.
+
+C:\Users\Scott\Desktop>del destination
+C:\Users\Scott\Desktop\destination\*, Are you sure (Y/N)? y
+
+C:\Users\Scott\Desktop>

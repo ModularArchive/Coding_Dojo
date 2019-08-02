@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf=8">
+    <title>My first flask template</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheet.css')}}">
+</head>
+<body>
+    <div>
+        <form method='POST' action='/display'>
+            Name: <input type='text' name="name">   <!-- This is a form that links to the name = request.form['name'] -->
+            Location: <input type='text' name="location">   <!-- This is a form that links to the name = request.form['location'] -->
+            Language: <input type='text' name="language">   <!-- This is a form that links to the name = request.form['language'] -->
+            Comment: <input type='comment' name="comment">  <!-- This is a form that links to the name = request.form['comment'] -->
+            <input type='submit' value='Button'>
+        </form>
+    </div>
+</body>
+</html> <!-- call flask/Scripts/activate -->

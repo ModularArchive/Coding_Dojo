@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style type="text/css">
+    .red {
+        color:red;
+    }
+    .green {
+        color:red;
+    }
+    .blue {
+        color:red;
+    }    
+    .big {
+        color:red;
+    }    
+    .notbig {
+
+    }
+    </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Add a new word!</h1>
+    <form action="/submit" method="POST">
+    {% csrf_token %}
+    <input type="text" name="word" placeholder="Enter word here">
+    <h2>Choose color:</h2>
+    <input type="radio" name="color" value="red">Red</input>
+    <input type="radio" name="color" value="green">Green</input>
+    <input type="radio" name="color" value="blue">Blue</input>
+    <h2>Font Size:</h2>
+    <input type="radio" name="big" value="big"><p>Big Fonts</p>
+    <input type="radio" name="big" value="notbig"><p>Normal Fonts</p>
+    <input type="submit" value="Add to Session">
+    </form>
+    <a href="/clear">Clear Session</a>
+    {% if request.session.list %}
+        {% for dict in request.session.list %}
+        <div><span class="{{ dict.color }} {{ dict.big }}">{{ dict.word }}</span> - added {{ dict.added }}</div>
+        {% endfor %}
+    {% endif %}
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

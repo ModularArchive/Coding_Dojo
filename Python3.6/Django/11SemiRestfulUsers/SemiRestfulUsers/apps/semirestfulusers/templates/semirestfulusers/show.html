@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>User {{ user.id }}</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>User {{ user.id }}</td>
+            <td>Name: {{ user.name }}</td>
+            <td>Email: {{ user.email }}</td>
+            <td>Created At: {{ user.created_at }}</td>
+        </tr>
+    </table>
+    <a href="/users/{{ user.id }}/edit">Edit</a><a href="/users/{{ user.id }}/destroy">Delete</a><br>
+    <a href="/users">Back</a>
+</body>
+</html>

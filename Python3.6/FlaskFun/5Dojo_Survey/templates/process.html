@@ -1,0 +1,21 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="utf=8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>index</title>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Name: {{ session['name']}} </h1> <!-- Session takes the name from the form and Posts it into {{name}} -->
+        <h1>Location: {{ session['location']}} </h1> <!-- Session takes the name from the form and Posts it into {{location}} -->
+        <h1>Language: {{ session['language'] }} </h1> <!-- Session takes the name from the form and Posts it into {{language}} -->
+        <h1>Comment: {{ session['comment'] }} </h1> <!-- Session takes the name from the form and Posts it into {{comment}} -->
+
+        <form action="/">
+            <input class="button" type="submit" value="Back">
+        </form>
+
+    </div>
+</body>
+</html>

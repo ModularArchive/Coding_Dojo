@@ -1,0 +1,116 @@
+div {
+  display: inline-block;
+}
+.head {
+  background-color: white;
+  height: 50px;
+  width: 970px;
+  padding: 10px 10px 10px 10px;
+}
+.name{
+  font: 30px bold Arial;
+  float: left;
+  margin: 10px 10px 10px 10px;
+}
+.extra {
+  font: 20px bold Arial;
+  float: right;
+  margin: 10px 10px 10px 10px;
+}
+.wrapper {
+  background: radial-gradient(purple, black);
+  width: 970px;
+  background-color: crimson;
+  padding: 20px 20px 20px 20px;
+}
+.box1 {
+  margin: 20px 20px 20px 20px;
+  width: 350px;
+  height: 250px;
+  border: 5px solid white;
+  float: left;
+}
+.picture {
+  width: 350px;
+  height: 250px;
+}
+.box2 {
+ float:left;
+  background-color: white;
+  width: 530px;
+  height: 260px;
+  margin: 20px 20px 20px 20px;
+}
+.headbox1 {
+  background-color: grey;
+  width: 530px;
+  height: 40px;
+}
+.text {
+  font: 20px solid;
+  color: white;
+  margin:  10px 10px 10px 10px;
+}
+.info {
+  margin: 10px 10px 10px 10px;
+}
+.modularbox1 {
+  margin: 20px 20px 0px 20px;
+  background-color: white;
+  width: 280px;
+  height: 400px;
+}
+.modboximg {
+    margin: 0px 0px 10px 0px;
+    width: 280px;
+    height: 200px;
+}
+.modhbox1 {
+  background-color: grey;
+  width: 280px;
+  height: 50px;
+}
+.modularbox2 {
+  margin: 0px 20px 20px 20px;
+  background-color: white;
+  width: 280px;
+  height: 220px;
+}
+.modhbox2 {
+  background-color: grey;
+  width: 280px;
+  height: 50px;
+}
+.tech {
+  height: 35px;
+  width: 35px;
+  margin: 7px 7px 7px 7px
+}
+.buttons {
+  height: 40px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 80px 10px 80px;
+}
+button {
+  float: bottom;
+  background-color: green;
+  color: white;
+  height: 20px;
+  margin: 10px 10px 10px 10px;
+}
+.footer1 {
+  background-color: grey;
+  height: 20px;
+  width: 220px;
+  padding: 5px 395px 5px 395px;
+}
+.footer2 {
+  background-color: grey;
+  height: 20px;
+  width: 400px;
+  padding: 5px 250px 5px 360px;
+}
+.foot {
+  width: 15px;
+  height: 15px;
+}
